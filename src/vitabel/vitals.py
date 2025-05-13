@@ -2328,7 +2328,8 @@ class Vitals:
         cprdat_analysis["arrest_episodes"] = arrest_episodes
     
         
-        
+        version = '1.5.2'
+        schema_version = '0.6.1'
         # --------------- TOTAL --------------------------------------------------------------------
     
         result_dict={"cprdat_analysis":cprdat_analysis,
